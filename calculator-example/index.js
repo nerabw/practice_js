@@ -9,8 +9,14 @@ app.post("/", function(request, response) {
     if (oper === '+') {
         alert(answer = arg1 + arg2);
     }
+    if (oper === '-') {
+        alert(answer = arg1 - arg2);
+    }
+    if (oper === '*') {
+        alert(answer = arg1 * arg2);
+    }
     else {
-        alert(answer = arg1 - arg2)
+        alert(answer = arg1 / arg2)
     }
     response.status(200).json(answer);
 });
