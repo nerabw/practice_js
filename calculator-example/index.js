@@ -7,16 +7,16 @@ app.post("/", function(request, response) {
     const { arg1, arg2, oper } = request.body;
     let answer;
     if (oper === '+') {
-        alert(answer = arg1 + arg2);
+        answer = arg1 + arg2;
     }
     if (oper === '-') {
-        alert(answer = arg1 - arg2);
+        answer = arg1 - arg2;
     }
     if (oper === '*') {
-        alert(answer = arg1 * arg2);
+        answer = arg1 * arg2;
     }
     else {
-        alert(answer = arg1 / arg2)
+        answer = arg1 / arg2;
     }
     response.status(200).json(answer);
 });
