@@ -1,7 +1,7 @@
 {
   "name": "calculator-example",
   "version": "1.0.0",
-  "description": "javascript calculator",
+  "description": "js calculator",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
